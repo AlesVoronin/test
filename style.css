@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: "Century Gothic";
+    background: linear-gradient(to bottom, #fddca5, #bbc8ba);
+    margin: 0;
+    /*"Berlin Sans FB" "Bahnschrift"*/
+}
+header img {
+    position: relative;
+    margin: auto;
+    top: -100px;
+    z-index: 0;
+    width: 28%;
+    border-radius: 50%;
+    padding-right: 10%;
+    top: 10%;
+    left: 6%;
+    margin-bottom: 2%;
+}
+header h1{
+    z-index: 1;
+}
+header {
+    letter-spacing: 30px;
+    width: 100%;
+    background-color: #546747;
+    font-size: 16pt;
+}
+header div{
+    height: 20%;
+}
+article {
+    /*justify-content: center;*/
+    width: 100%;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+}
+.context {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.code {
+    display: block;
+    margin: auto;
+    text-align: left;
+    font-size: 14pt;
+    width: 35%;
+    color: slategrey;
+}
+h1 {
+    color: white;
+    /*text-shadow: aquamarine 4px 4px;*/
+}
+h3 {
+    font-size: 20pt;
+}
+p {
+    font-size: 16pt;
+}
+li {
+    font-size: 16pt;
+    text-align: justify;
+}
+ul {
+    width: 45%;
+    margin: auto;
+}
+.education ul{
+    width: 80%;
+}
+.english p{
+    font-size: 30pt;
+}
+.name p{
+    font-family: "Brush Script MT";
+    font-size: 80pt;
+    margin: 0px;
+}
+.line{
+    margin: 0px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-width: 0 0 5px;
+    border-style: solid;
+    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="orange" cx="1" cy="0.5" r="0.5"></circle></svg>') 0 0 100% repeat;
+    background-position: 30%;
+    box-sizing: border-box;
+    color: orange;
+}
+footer p{
+    font-size: 12pt;
+}
+.marker{
+    color: slategrey;
+}
